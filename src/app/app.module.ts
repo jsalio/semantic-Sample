@@ -1,8 +1,9 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-
-
+import {SuiModule} from 'ng2-semantic-ui';
+import { NgSemanticModule } from 'ng-semantic';
 import { AppComponent } from './app.component';
+import { FormsModule, FormGroup } from '@angular/forms';
 
 
 @NgModule({
@@ -10,7 +11,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    SuiModule,
+    NgSemanticModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
