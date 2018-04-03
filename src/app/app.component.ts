@@ -1,4 +1,7 @@
 import { Component } from '@angular/core';
+import { FormControl, FormGroup } from '@angular/forms';
+import { SemanticInputComponent } from 'ng-semantic';
+import {SuiCheckboxModule, SuiRatingModule} from 'ng2-semantic-ui';
 
 @Component({
   selector: 'app-root',
